@@ -23,6 +23,6 @@ def triangle(num):
         print('    '.join(map(str, x)).center(m)+'\n')
 
 
-num = int(input())
+num = int(input('Введите количество строк для треугольника Паскаля: '))
 list(numbers(num))
 triangle(num)
